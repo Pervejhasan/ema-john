@@ -9,7 +9,7 @@ const Cart = (props) => {
         totalPrice+=product.price;
         totalShipping += product.shipping
     } 
-    // console.log(cart)
+    console.log(cart)
     const tax = totalPrice*7/100;
 
     const grandTotal=totalPrice+totalShipping+tax;
