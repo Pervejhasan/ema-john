@@ -35,12 +35,13 @@ margin-bottom: 0px;
     margin-bottom: 5px;
 }
 .btn-cart{
-width: 100%;
+     width: 100%;
     background-color: #f1c85e;
     border: 1px solid #95A0A7;
     border-radius:0px 0px 8px 8px ;
     position: absolute;
     bottom: 0;
+    color: black;
 }
 .btn-cart:hover{
     background-color: orange;
