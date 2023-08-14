@@ -11,8 +11,6 @@ const Cart = (props) => {
         //     product.quantity= 1;
         // }
         // product.quantity= product.quantity||1;
-
-
         totalPrice = totalPrice + product.price * product.quantity;
         totalShipping += product.shipping;
         quantity = quantity + product.quantity;
